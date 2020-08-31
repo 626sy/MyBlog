@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db040cda-e028-419f-ae33-54cbfac81094" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/images/bgc/1598493874359.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/bgc/1598493874385.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/bgc/706476.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/zazhi/magazine-unlock-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/zazhi/magazine-unlock-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/zazhi/magazine-unlock-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/zazhi/magazine-unlock-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/zazhi/magazine-unlock-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/zazhi/magazine-unlock-06.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/me.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/me.css" afterDir="false" />
-    </list>
+    <list default="true" id="db040cda-e028-419f-ae33-54cbfac81094" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +22,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images/bgc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GitHub/web_study" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,6 +51,7 @@
       <workItem from="1598341325352" duration="2201000" />
       <workItem from="1598422170879" duration="27167000" />
       <workItem from="1598515362390" duration="8166000" />
+      <workItem from="1598777325743" duration="160000" />
     </task>
     <servers />
   </component>
@@ -71,6 +59,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="549" y="175" key="FileChooserDialogImpl" timestamp="1598777484093">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="175" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1598777484093" />
     <state x="272" y="63" key="SettingsEditor" timestamp="1598448693672">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
