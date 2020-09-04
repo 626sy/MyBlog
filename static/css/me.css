@@ -1,6 +1,6 @@
 
 body {
-    background: url("../images/bgc/1598493874385.jpg") no-repeat;
+    background: url("../images/bgc/1072245.png") no-repeat;
     background-attachment: fixed;
     /*opacity: 0.8;*/
     background-size: 100%  ;
@@ -47,6 +47,10 @@ body {
 .m-padded-tb-massive {
     padding-top: 5em !important;
     padding-bottom: 5em !important;
+}
+.m-padded-lr{
+    padding-left: 4em!important;
+    padding-right: 4em !important;
 }
 
 
@@ -111,6 +115,11 @@ body {
 
 .m-container {
     max-width: 72em;
+    margin: auto !important;
+}
+
+.m-container-small {
+    max-width: 60em;
     margin: auto !important;
 }
 
