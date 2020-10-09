@@ -11,32 +11,32 @@
 
     <!--  导航-->
     <nav class="ui inverted attached segment m-padded-tb-mini m-opacity-tiny">
-      <div class="ui container">
-        <div class="ui inverted secondary stackable menu">
-          <h2 class="ui teal header item">Blog</h2>
-          <a href="#" class="m-item item m-mobile-hide"><i class="mini home icon"></i>&nbsp; 首页</a>
-          <a href="#" class="m-item item m-mobile-hide"><i class="mini idea icon"></i>&nbsp; 分类</a>
-          <a href="#" class="m-item item m-mobile-hide"><i class="mini tags icon"></i>&nbsp; 标签</a>
-          <a href="#" class="m-item item m-mobile-hide"><i class="mini clone icon"></i>&nbsp; 归档</a>
-          <a href="#" class="m-item item m-mobile-hide"><i class="mini info icon"></i>&nbsp; 关于我</a>
-          <div class="right m-item item m-mobile-hide">
-            <div class="ui icon inverted transparent input">
-              <input type="text" placeholder="Search....">
-              <i class="search link icon"></i>
+        <div class="ui container">
+            <div class="ui inverted secondary stackable menu">
+                <h2 class="ui teal header item">Blog</h2>
+                <a href="#" class="m-item item m-mobile-hide"><i class="mini home icon"></i>&nbsp; 首页</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class="mini idea icon"></i>&nbsp; 分类</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class="mini tags icon"></i>&nbsp; 标签</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class="mini clone icon"></i>&nbsp; 归档</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class="mini info icon"></i>&nbsp; 关于我</a>
+                <div class="right m-item item m-mobile-hide">
+                    <div class="ui icon inverted transparent input">
+                        <input type="text" placeholder="Search....">
+                        <i class="search link icon"></i>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
-        <i class="sidebar icon"></i>
-      </a>
-      
+        <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+            <i class="sidebar icon"></i>
+        </a>
+
     </nav>
   
   
     <!--中间内容-->
-    <div class="m-container-small m-padded-tb-big m-opacity-mini">
-      <div class="container">
+    <div class="m-container-small m-padded-tb-big ">
+      <div class="container m-opacity-mini">
         <div class="ui top attached segment">
           <div class="ui mini horizontal link list">
             <div class="item">
@@ -64,7 +64,7 @@
 
           <h2 class="ui center aligned header">士大夫士大夫士大夫</h2>
 
-          <div id="content" class="m-padded-lr m-padded-tb-large">
+          <div id="content" class="m-padded-lr-responsive m-padded-tb-large">
             <p>
               四大名著
 
@@ -86,21 +86,153 @@
             </p>
           </div>
           <!--标签-->
-          <div class="m-padded-lr">
+          <div class="m-padded-lr-responsive">
             <div class="ui basic teal left pointing label">方法论</div>
           </div>
           <!--赞赏-->
           <div class="ui center aligned basic segment">
-            <button class="ui orange basic circular button">赞赏</button>
+            <button id="payButton" class="ui orange basic circular button">赞赏</button>
           </div>
+
+          <div class="ui payQR flowing popup transition hidden">
+              <div class="ui orange basic label">
+                  <div class="ui images" style="font-size: inherit">
+                      <div class="image">
+                          <img src="./static/images/wechat1.jpg" alt="" class="ui rounded bordered image" style="width: 120px">
+                          <div>支付宝支付</div>
+                      </div>
+                      <div class="image">
+                          <img src="./static/images/wechat1.jpg" alt="" class="ui rounded bordered image" style="width: 120px">
+                          <div>微信支付</div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
 
 
         </div>
         <div class="ui attached positive message">
-          博客信息
+<!--          博客信息-->
+          <div class="ui middle aligned grid">
+              <div class="eleven wide column">
+                  <ui class="list">
+                      <li>作者 ：李宗仁：()</li>
+                      <li>发表时间 ：李宗仁：()</li>
+                      <li>作者 ：李宗仁：()</li>
+                      <li>作者 ：李宗仁：()</li>
+                  </ui>
+              </div>
+              <div class="five wide column">
+                  <img src="./static/images/wechat1.jpg" alt="" class="ui right floated rounded bordered image" style="width: 110px">
+              </div>
+          </div>
         </div>
         <div class="ui attached segment">
-          留言区域
+<!--          留言区域-->
+          <div class="ui teal segment">
+              <div class="ui threaded comments">
+                  <h3 class="ui dividing header">Comments</h3>
+                  <div class="comment">
+                      <a class="avatar">
+                          <img src="static/images/zazhi/magazine-unlock-04.jpg">
+                      </a>
+                      <div class="content">
+                          <a class="author">Matt</a>
+                          <div class="metadata">
+                              <span class="date">Today at 5:42PM</span>
+                          </div>
+                          <div class="text">
+                              How artistic!
+                          </div>
+                          <div class="actions">
+                              <a class="reply">回复</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="comment">
+                      <a class="avatar">
+                          <img src="static/images/zazhi/magazine-unlock-04.jpg">
+                      </a>
+                      <div class="content">
+                          <a class="author">Elliot Fu</a>
+                          <div class="metadata">
+                              <span class="date">Yesterday at 12:30AM</span>
+                          </div>
+                          <div class="text">
+                              <p>This has been very useful for my research. Thanks as well!</p>
+                          </div>
+                          <div class="actions">
+                              <a class="reply">回复</a>
+                          </div>
+                      </div>
+                      <div class="comments">
+                          <div class="comment">
+                              <a class="avatar">
+                                  <img src="static/images/zazhi/magazine-unlock-04.jpg">
+                              </a>
+                              <div class="content">
+                                  <a class="author">Jenny Hess</a>
+                                  <div class="metadata">
+                                      <span class="date">Just now</span>
+                                  </div>
+                                  <div class="text">
+                                      Elliot you are always so right :)
+                                  </div>
+                                  <div class="actions">
+                                      <a class="reply">回复</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="comment">
+                      <a class="avatar">
+                          <img src="static/images/zazhi/magazine-unlock-04.jpg">
+                      </a>
+                      <div class="content">
+                          <a class="author">Joe Henderson</a>
+                          <div class="metadata">
+                              <span class="date">5 days ago</span>
+                          </div>
+                          <div class="text">
+                              Dude, this is awesome. Thanks so much
+                          </div>
+                          <div class="actions">
+                              <a class="reply">回复</a>
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+
+          <div class="ui form">
+              <div class="field">
+                  <textarea name="content" placeholder="请输入评论信息。。。" ></textarea>
+              </div>
+              <div class="fields">
+                <div class="field m-mobile-wide m-margin-bottom-small">
+                    <div class="ui left icon input">
+                        <i class="user icon"></i>
+                        <input type="text" name="nickname" placeholder="姓名">
+                    </div>
+                </div>
+                <div class="field   m-margin-bottom-small">
+                    <div class="ui left icon input">
+                        <i class="mail icon"></i>
+                        <input type="text" name="email" placeholder="邮箱">
+                    </div>
+                </div>
+                  <div class="field m-mobile-wide m-margin-bottom-small">
+                      <div class="ui teal button m-mobile-wide">
+                          <i class="edit icon"></i>发布
+                      </div>
+                  </div>
+              </div>
+
+          </div>
 
         </div>
 
@@ -110,8 +242,8 @@
     <br>
   
     <!--底部footer-->
-    <footer class="ui inverted vertical segment m-opacity-mini">
-      <div class="ui center aligned container ">
+    <footer class="ui inverted vertical segment ">
+      <div class="ui center aligned container  ">
         <div class="ui inverted divided stackable grid m-padded-tb">
           <div class="three wide column">
             <div class="ui inverted link list">
@@ -150,7 +282,13 @@
     <script>
       $('.menu.toggle').click(function () {
         $('.m-item').toggleClass('m-mobile-hide')
-      })
+      });
+
+      $('#payButton').popup({
+          popup :$('.payQR.popup'),
+          on : 'click',
+          position: 'bottom center'
+      });
     </script>
 </body>
 </html>

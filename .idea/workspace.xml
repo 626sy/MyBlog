@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db040cda-e028-419f-ae33-54cbfac81094" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/bgc/1072245.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/bgc/739912.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/wechat1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/me.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/me.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +28,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images/bgc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -38,14 +38,14 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\boke\MyBlog" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\boke\MyBlog" />
+      <recent name="G:\boke\MyBlog\static\images" />
       <recent name="G:\boke\MyBlog\static\images\bgc" />
       <recent name="G:\boke\MyBlog\static" />
       <recent name="G:\boke\MyBlog\static\images\zazhi" />
-      <recent name="G:\boke\MyBlog\static\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\boke\MyBlog" />
     </key>
   </component>
@@ -63,6 +63,8 @@
       <workItem from="1598515362390" duration="8166000" />
       <workItem from="1598777325743" duration="160000" />
       <workItem from="1599136615145" duration="3327000" />
+      <workItem from="1600655348491" duration="104000" />
+      <workItem from="1601800125620" duration="9789000" />
     </task>
     <servers />
   </component>
@@ -70,10 +72,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="175" key="FileChooserDialogImpl" timestamp="1598777484093">
+    <state x="549" y="175" key="FileChooserDialogImpl" timestamp="1600655416002">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="175" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1598777484093" />
+    <state x="549" y="175" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1600655416002" />
     <state x="272" y="63" key="SettingsEditor" timestamp="1598448693672">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
